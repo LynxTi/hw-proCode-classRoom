@@ -1,0 +1,41 @@
+.wrapper {
+    width: 800px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+
+    .container-btn {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 20px;
+    }
+
+    .students-container {
+        margin: 10px 20px;
+        width: 100%;
+        background-color: #FFB273;
+        .student-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+
+            &:nth-child(2n) {
+                background-color: #FF9640;
+                
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .naumber-student {
+                width: 40px;
+            }
+
+            .name-student {
+                width: 250px;
+            }
+        }
+    }
+}

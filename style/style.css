@@ -1,0 +1,34 @@
+.wrapper {
+  width: 800px;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .container-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.wrapper .students-container {
+  margin: 10px 20px;
+  width: 100%;
+  background-color: #FFB273;
+}
+.wrapper .students-container .student-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.wrapper .students-container .student-container:nth-child(2n) {
+  background-color: #FF9640;
+}
+.wrapper .students-container .student-container:last-child {
+  margin-bottom: 0;
+}
+.wrapper .students-container .student-container .naumber-student {
+  width: 40px;
+}
+.wrapper .students-container .student-container .name-student {
+  width: 250px;
+}/*# sourceMappingURL=style.css.map */
